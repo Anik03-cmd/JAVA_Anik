@@ -1,14 +1,14 @@
-public class swap {
+public class Swap {
     int num1, num2;
 
-    swap(int a, int b){
+    Swap(int a, int b){
 
         num1 = a;
         num2 = b;
 
     }
 
-    void Swap(){
+    void swap(){
         int temp = num1;
         num1 = num2;
         num2 = temp;
@@ -21,16 +21,16 @@ public class swap {
 
     public static void main(String args[]){
 
-        swap obj1 = new swap(9,4);
+        Swap obj1 = new Swap(9,4);
         
         obj1.display();
-        obj1.Swap();
+        obj1.swap();
         obj1.display();
 
-        swap obj2 = new swap(78, 69);
+        Swap obj2 = new Swap(78, 69);
 
         obj2.display();
-        obj2.Swap();
+        obj2.swap();
         obj2.display();
 
         

@@ -1,4 +1,4 @@
-public class add {
+public class Add {
 
     int a,b;
 
@@ -8,7 +8,7 @@ public class add {
     
     public static void main(String args[]){
         
-        add obj = new add();
+        Add obj = new Add();
 
         obj.a = 10;
         obj.b = 20;

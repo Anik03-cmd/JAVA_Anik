@@ -1,4 +1,4 @@
-public class nested {
+public class Nested {
 
     String message = "Hello from Outer class";
 
@@ -12,8 +12,8 @@ public class nested {
 
     public static void main(String[] args) {
 
-        nested obj = new nested();              
-        nested.Inner innerObj = obj.new Inner();  
+        Nested obj = new Nested();              
+        Nested.Inner innerObj = obj.new Inner();  
 
         innerObj.display();
     }

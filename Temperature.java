@@ -1,4 +1,4 @@
-public class temperature {
+public class Temperature {
     
     double celsius;
 
@@ -9,7 +9,7 @@ public class temperature {
 
     public static void main(String[] args) {
         
-        temperature obj = new temperature();
+        Temperature obj = new Temperature();
 
         obj.celsius = 35.5;
 

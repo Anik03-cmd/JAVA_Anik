@@ -1,4 +1,4 @@
-public class oddEven {
+public class OddEven {
 
 
     void check(int n){
@@ -12,7 +12,7 @@ public class oddEven {
 
     public static void main(String[] args) {
         
-        oddEven obj = new oddEven();
+        OddEven obj = new OddEven();
 
         obj.check(16);
     }

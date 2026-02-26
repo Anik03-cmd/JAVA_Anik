@@ -1,4 +1,4 @@
-public class rectangle{
+public class Rectangle{
 
     int l,b;
 
@@ -9,7 +9,7 @@ public class rectangle{
     
     public static void main(String[] args) {
         
-        rectangle obj = new rectangle();
+        Rectangle obj = new Rectangle();
 
         obj.l = 7;
         obj.b = 8;

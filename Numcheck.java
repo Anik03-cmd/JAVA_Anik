@@ -1,8 +1,8 @@
-public class numcheck {
+public class Numcheck {
 
     int n;
 
-    numcheck(int i){
+    Numcheck(int i){
         n = i;
     }
     
@@ -17,7 +17,7 @@ public class numcheck {
     }
     public static void main(String args[]){
 
-        numcheck obj = new numcheck(8);
+        Numcheck obj = new Numcheck(8);
 
         obj.check();
     }

@@ -1,6 +1,6 @@
-public class reverse {
+public class Reverse {
 
-     void Reverse(int num){
+     void reverse(int num){
         int reversenum = 0;
         while(num > 0){
         reversenum = (num % 10) + (reversenum*10);
@@ -12,9 +12,9 @@ public class reverse {
 
     public static void main(String[] args) {
         
-        reverse obj = new reverse();
+        Reverse obj = new Reverse();
 
-        obj.Reverse(345);
+        obj.reverse(345);
     }
 
 }

@@ -1,4 +1,4 @@
-public class leap {
+public class Leap {
     
     void check(int year){
         if(year  % 400 == 0 || year % 100 != 0 && year % 4 == 0){
@@ -9,7 +9,7 @@ public class leap {
 
     public static void main(String[] args) {
         
-        leap obj = new leap();
+        Leap obj = new Leap();
 
         obj.check(1900);
     }

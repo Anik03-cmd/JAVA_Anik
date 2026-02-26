@@ -1,8 +1,8 @@
-public class max {
+public class Max {
 
     int num1, num2, num3;
 
-    max(int a, int b, int c){
+    Max(int a, int b, int c){
         num1 = a;
         num2 = b;
         num3 = c;
@@ -20,7 +20,7 @@ public class max {
 
    public static void main(String[] args) {
     
-    max obj = new max(67,98,64);
+    Max obj = new Max(67,98,64);
 
     obj.check();
    }
